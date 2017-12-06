@@ -13,18 +13,18 @@ docker: https://docs.docker.com/engine/installation/#supported-platforms
 
 #  COMANDI UTILI #
 
- # make (install requirements)
+ make (install requirements)
 
- # make start
+ make start
 
- # make stop
+ make stop
 
- # make restart
+ make restart
 
- # make remove **ATTENZIONE**
+ make remove **ATTENZIONE**
 
- # make module (create new module)
+ make module (create new module)
 
- # make info
+ make info
 
 --------------------------------------------------------------------------------
