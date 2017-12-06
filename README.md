@@ -1,4 +1,4 @@
-# Kit per lo sviluppatore Odoo
+# Kit per lo Sviluppatore Odoo
 Realizzato per il Corso di Sistemi Informativi (Università degli Studi di Napoli Federico II)
 
 --------------------------------------------------------------------------------
