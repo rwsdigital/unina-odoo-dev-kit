@@ -1,0 +1,19 @@
+<odoo>
+  <data>
+
+    <record id="product_template_form_view_inherit" model="ir.ui.view">
+        <field name="name">product.template.form.inherit</field>
+        <field name="model">product.template</field>
+        <field name="inherit_id" ref="product.product_template_form_view"/>
+        <field name="arch" type="xml">
+        <xpath expr="//page[@name='general_information']/group/group" position="before">
+            <group>
+                     <field name="brand_id"/>
+                     <field name="season_id"/>
+            </group>
+        </xpath>
+      </field>
+    </record>
+
+  </data>
+</odoo>
