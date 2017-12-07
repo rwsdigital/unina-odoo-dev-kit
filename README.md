@@ -15,7 +15,7 @@ docker: https://docs.docker.com/engine/installation/#supported-platforms
 
 #  COMANDI UTILI #
 
- make (install requirements)
+ make (start the magic!)
 
  make start
 
@@ -26,6 +26,8 @@ docker: https://docs.docker.com/engine/installation/#supported-platforms
  make remove **ATTENZIONE**
 
  make module (create new module)
+
+ make logs
 
  make info
 

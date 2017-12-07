@@ -32,5 +32,8 @@ module: requirements
 			@read -p "Enter Module Name: " module; \
 			cd $(ODOO_FOLDER_NAME) && ../$(VIRTUALENV)/bin/docker-compose run web odoo scaffold $$module /mnt/extra-addons
 
+logs: requirements
+			@cd $(ODOO_FOLDER_NAME) && ../$(VIRTUALENV)/bin/docker-compose logs -f
+
 info:
 			@cat README.md
