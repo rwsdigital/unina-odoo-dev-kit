@@ -11,8 +11,6 @@ pip: https://pip.pypa.io/en/stable/installing/
 
 docker: https://docs.docker.com/engine/installation/#supported-platforms
 
---------------------------------------------------------------------------------
-
 #  COMANDI UTILI #
 
  make (start the magic!)
@@ -31,4 +29,8 @@ docker: https://docs.docker.com/engine/installation/#supported-platforms
 
  make info
 
---------------------------------------------------------------------------------
+#  INFO UTILI #
+
+ http://localhost:8069 (Odoo)
+
+ http://localhost:8080 (Adminer, DB Management Tool)
