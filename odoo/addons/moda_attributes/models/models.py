@@ -22,4 +22,4 @@ class ProductTemplate(models.Model):
     _inherit = 'product.template'
 
     brand_id = fields.Many2one("product.brand",string="Brand",help='Il Nome del Brand')
-    season_id = fields.Many2one("product.brand",string="Stagione",help='Codice Stagione')
+    season_id = fields.Many2one("product.season",string="Stagione",help='Codice Stagione')
