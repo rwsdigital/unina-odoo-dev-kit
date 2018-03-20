@@ -1,7 +1,7 @@
 version: '2'
 services:
   web:
-    image: rwsdigital/odoo-docker:10.0
+    image: odoo:10.0
     depends_on:
       - db
     ports:
